@@ -72,5 +72,16 @@ https://github.com/user-attachments/assets/ee8353ad-d727-4e7b-90e3-68225566b4a1
 - Promotes scientific method and open data in agriculture.
 - Supports decisions that raise productivity and sustainability in the field.
 
+## Thanks ♥️
+<!-- 
+<img width="320" height="320" alt="TERRA" align="center" src="https://github.com/user-attachments/assets/8883264c-8aae-41e9-af31-c704a89ed461" />
+</p> -->
+<p align="center">
+<img width="104" height="30" alt="4 1" src="https://github.com/user-attachments/assets/fcab03af-87b7-402f-889d-7dc7236daec4" />
+<img width="230" height="100" alt="antares-seeklogo 1" src="https://github.com/user-attachments/assets/9b550753-54e4-4e12-9c20-97402e1264e6" />
+</p>
+
+
+
 ## Access the platform
 contact: joao_leonardi.melo@somosicev.com, opensource.leonardi@gmail.com
