@@ -3,7 +3,7 @@
 <img width="320" height="320" alt="TERRA" align="center" src="https://github.com/user-attachments/assets/8883264c-8aae-41e9-af31-c704a89ed461" />
 </p>
 
-# v0.1.0 TERRA — Precision Agriculture Platform
+# v0.1.0 TERRA — Precision Agriculture HUB
 
 ## What it is
 TERRA is an open platform for teams that need to connect field operations and science without relying on proprietary tools. In a single hub it brings mission planning, crop monitoring, asset management (drones, biosensors, livestock), and geospatial views with agronomic indices.
@@ -48,12 +48,16 @@ The focus is real-world use: run locally with your own data, process satellite p
 - Plant health: flag suspect areas and launch quick inspection missions with drones or rovers.
 - Research: compare sensor protocols or cultivars using per-area history.
 
-## Media
+## v0.1.0 Demo
 
 
 https://github.com/user-attachments/assets/ee8353ad-d727-4e7b-90e3-68225566b4a1
 
 
+
+## DIY and Integrate your Sensors
+<img width="2560" height="1440" alt="Group 90" src="https://github.com/user-attachments/assets/4940f24c-09e3-4374-8ff2-5c0f96d29292" />
+<p>TERRA UAV Sensor TX: Is an opensource sensor payload for cattle counting and re-indentification</p>
 
 ## Product roadmap (high level)
 - Interface for satellite product upload and management.
