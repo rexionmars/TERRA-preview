@@ -1,65 +1,72 @@
-# TERRA — Plataforma de Agricultura de Precisão
+<!-- <img width="1024" height="1024" alt="ChatGPT Image 20 de mar  de 2026, 23_14_34" src="https://github.com/user-attachments/assets/b59997a0-539b-4a92-b3d5-6e543398a84a" />-->
+<p align="center">
+<img width="320" height="320" alt="TERRA" align="center" src="https://github.com/user-attachments/assets/8883264c-8aae-41e9-af31-c704a89ed461" />
+</p>
 
-## O que é
-TERRA é uma plataforma aberta pensada para quem precisa unir campo e ciência sem depender de soluções proprietárias. Em um hub único, ela reúne planejamento de missões aéreas, acompanhamento de lavouras, gestão de ativos (drones, biossensores, rebanho) e visualização geoespacial com mapas e índices agronômicos.
+# v0.1.0 TERRA — Precision Agriculture Platform
 
-O foco é uso prático em campo: operar localmente com dados próprios, processar produtos satelitais para gerar insights acionáveis e oferecer painéis que ligam mapas a tarefas e alertas. A proposta é baixar barreiras de acesso à agricultura de precisão e acelerar a tomada de decisão.
+## What it is
+TERRA is an open platform for teams that need to connect field operations and science without relying on proprietary tools. In a single hub it brings mission planning, crop monitoring, asset management (drones, biosensors, livestock), and geospatial views with agronomic indices.
 
-## Para quem
-- Produtores e técnicos que precisam priorizar talhões e insumos.
-- Cooperativas e associações que buscam padronizar monitoramento em várias fazendas.
-- Pesquisadores e makers que querem testar hardware aberto e protocolos científicos.
-- Times de campo que precisam de rotinas claras e alertas confiáveis.
+The focus is real-world use: run locally with your own data, process satellite products to generate actionable insights, and link maps to tasks and alerts. The goal is to lower the barrier to precision agriculture and speed up decision-making.
 
-## Problemas que resolve
-- **Dados dispersos**: consolida campo, clima, inventário, missões e alertas em um painel único, evitando planilhas e sistemas isolados.
-- **Detecção tardia de estresse**: converte produtos satelitais e imagens de voo em índices (NDVI, NDWI, EVI) e mapas temáticos, permitindo agir cedo em áreas críticas.
-- **Operação reativa**: organiza tarefas recorrentes e regras de alerta para que a equipe trabalhe de forma preventiva.
-- **Adoção tecnológica cara**: incentiva hardware aberto (drones e sensores de baixo custo) e documentação científica, reduzindo barreiras para pequenos e médios produtores.
-- **Falta de rastreabilidade**: registra missões, leituras e intervenções, criando histórico comparável por área ou safra.
+## Who it’s for
+- Growers and field technicians who must prioritize fields and inputs.
+- Cooperatives and associations standardizing monitoring across multiple farms.
+- Researchers and makers testing open hardware and scientific protocols.
+- Field crews that need clear routines and reliable alerts.
 
-## Principais módulos
-- **Dashboard**: visão geral de fazendas, drones, biossensores, rebanho, tarefas e alertas.
-- **Mission Planner**: planejamento de missões de voo e mapeamento aéreo.
-- **Drones**: inventário, missões, componentes e manutenção.
-- **Biossensores**: catálogo, calibração e leitura de sensores biológicos e ambientais.
-- **Animals**: gestão de rebanho (saúde, pesos, eventos).
-- **Farm**: talhões, mapas temáticos, zonas de estresse e acompanhamento de safras.
-- **Smart Farm**: automações, tarefas recorrentes e regras de alerta.
+- Hub overview:  
+  ![TERRA dashboard](https://github.com/user-attachments/assets/f0afde2e-cfe1-42b2-a0a0-5baf4af7f767)
 
-## Fluxo típico de uso
-1. Registrar fazendas e talhões.
-2. Adicionar drones, biossensores e animais associados às áreas.
-3. Planejar missões de voo e coletar imagens ou leituras.
-4. Processar produtos e visualizar índices de vegetação nos mapas.
-5. Configurar tarefas e alertas para operações recorrentes e resposta a eventos.
+## Problems it solves
+- **Scattered data**: consolidates field, weather, inventory, missions, and alerts in one place, avoiding spreadsheets and fragmented systems.
+- **Late stress detection**: turns satellite products and flight imagery into indices (NDVI, NDWI, EVI) and thematic maps, enabling early action on critical zones.
+- **Reactive operations**: organizes recurring tasks and alert rules so teams can work preventively.
+- **Costly tech adoption**: promotes open hardware (low-cost drones and sensors) and scientific documentation, reducing barriers for small and mid-size producers.
+- **Lack of traceability**: logs missions, readings, and interventions, creating comparable history by area or season.
 
-## Casos de uso exemplares
-- Safra anual: acompanhar vigor vegetativo por talhão, priorizar adubação e registrar intervenções.
-- Irrigação: detectar zonas com déficit hídrico e acionar tarefas de correção.
-- Sanidade: mapear áreas suspeitas e abrir missões de inspeção rápida com drones ou rovers.
-- Pesquisa: comparar protocolos de sensores ou cultivares usando históricos por área.
+## Main modules
+- **Dashboard**: overview of farms, drones, biosensors, herd, tasks, and alerts.
+- **Mission Planner**: flight and mapping mission planning.
+- **Drones**: inventory, missions, components, and maintenance.
+- **Biosensors**: catalog, calibration, and readings of biological/environmental sensors.
+- **Animals**: herd management (health, weights, events).
+- **Farm**: fields, thematic maps, stress zones, and season tracking.
+- **Smart Farm**: automations, recurring tasks, and alert rules.
 
-## Mídias (demonstração)
-- Visão geral do hub:  
-  ![TERRA dashboard](/Users/rexionmars/estudos/terra-opensource-project/media_for_reame/Screenshot%202026-03-23%20at%2017.42.52.jpeg)
-- Vídeo de navegação (abrir localmente): `/Users/rexionmars/estudos/terra-opensource-project/media_for_reame/Screen Recording 2026-03-23 at 18.01.12.mov`
+## Typical workflow
+1. Register farms and fields.
+2. Add drones, biosensors, and animals linked to those areas.
+3. Plan missions and collect imagery or readings.
+4. Process products and view vegetation indices on maps.
+5. Configure tasks and alerts for recurring operations and rapid response.
 
-## Roadmap de produto (alto nível)
-- Interface para upload e gestão de produtos satelitais.
-- Novos índices e mapas temáticos para estresse hídrico e sanidade.
-- Integração de planners de missão com pilotos automáticos.
-- Biblioteca de hardware aberto (sensores e drones) com guias de montagem.
-- Painéis comparativos de safra e relatórios acionáveis para produtores.
-- Painéis de confiabilidade: uptime de dispositivos, latência de leitura e SLAs internos.
+## Sample use cases
+- Seasonal crops: track vigor by field, prioritize fertilization, and log interventions.
+- Irrigation: spot water stress zones and trigger corrective tasks.
+- Plant health: flag suspect areas and launch quick inspection missions with drones or rovers.
+- Research: compare sensor protocols or cultivars using per-area history.
 
-## Impacto social e científico
-- Democratiza tecnologias de precisão com materiais de baixo custo.
-- Promove metodologia científica e dados abertos em agricultura no Brasil.
-- Apoia decisões que podem elevar produtividade e sustentabilidade no campo.
+## Media
 
-## Como contribuir
-- Sugerir casos de uso ou módulos adicionais.
-- Reportar necessidades de produtores, pesquisadores e comunidades locais.
-- Compartilhar datasets, protocolos de sensores ou práticas agronômicas validadas.
-- Testar em campo e relatar limitações de operação offline, conectividade ou usabilidade.
+
+https://github.com/user-attachments/assets/ee8353ad-d727-4e7b-90e3-68225566b4a1
+
+
+
+## Product roadmap (high level)
+- Interface for satellite product upload and management.
+- New indices and thematic maps for water stress and plant health.
+- Mission planners integrated with autopilots.
+- Open hardware library (sensors and drones) with build guides.
+- Comparative season dashboards and actionable reports for growers.
+- Reliability boards: device uptime, reading latency, and internal SLAs.
+
+## Social and scientific impact
+- Democratizes precision tools with low-cost materials.
+- Promotes scientific method and open data in agriculture.
+- Supports decisions that raise productivity and sustainability in the field.
+
+## Access the platform
+contact: joao_leonardi.melo@somosicev.com, opensource.leonardi@gmail.com
